@@ -7,6 +7,6 @@ const jsonServer=require("json-server")
 
  const PORT=3000
 
- server.listen(prompt,()=>{
+ server.listen(PORT,()=>{
     console.log("Server running at",PORT)
  })
